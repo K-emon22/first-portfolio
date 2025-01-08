@@ -24,7 +24,7 @@ nav ul li button {
     font-size: 35px;
 
     /* course class e nei nicer line */
-    transition: transform 0.5s ease, background-color 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.01s ease;
 }
 
 /* course class e nei nicer line */
@@ -116,8 +116,67 @@ nav ul li {
     width: 585px;
 }
 
+
+
 .header {
     background-image: url(developer.png), url(header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    margin-left: 100px , 0px;
+   
+    ;
+}
+
+
+/* section */
+.section-about{
+    /* border: 5px solid rgb(0, 0, 0); */
+    background: rgb(255, 255, 255);
+    /* margin:  130px 230px 0px 230px  ; */
+    height: 288px;
+    width: 827px;
+    margin-top: 130px;
+    
+    border-radius: 20px;
+    padding: 130px 150px ;
+    
+}
+.section-heading3{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+text-align: center;
+margin-top: 0px;
+
+}
+.section-details{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    
+    line-height: 30px;
+    text-align: center;
+    
+}
+.bg-2, .header{
+    background-color: rgb(255, 248, 243);
+    
+}
+
+/* mainstyle */
+.main-section{
+max-width: 1140px;
+margin: 0px auto;
+}
+.about-items{
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: rgb(117, 117, 117);
+font-size: 20px;
+
+}
+.item-description{
+   
+    font-size: 20px;
+    font-weight: 700;
 }
