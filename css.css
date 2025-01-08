@@ -147,6 +147,7 @@ nav ul li {
     line-height: 48px;
 text-align: center;
 margin-top: 0px;
+margin-bottom: 30px;
 
 }
 .section-details{
@@ -155,6 +156,7 @@ margin-top: 0px;
     
     line-height: 30px;
     text-align: center;
+    margin-top: 0px;
     
 }
 .bg-2, .header{
@@ -180,3 +182,56 @@ font-size: 20px;
     font-size: 20px;
     font-weight: 700;
 }
+
+.section-title1{
+    font-size: 35px;
+    line-height: 48px;
+text-align: center;
+margin-top: 130px;
+margin-bottom: 30px;
+}
+.Section-title-details{
+    
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    /* line-height: 30px;
+    height: 90px;
+    width: 909px; */
+    margin: 0px 345px 0px 345px ;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+justify-content: center;
+
+}
+.skill-title{
+    font-weight: 800;
+    color: black;
+}
+.skil{
+    
+    
+    margin-top: 70px;
+
+    padding: 30px;
+    box-shadow: 0px 6px 20px 0px black;
+    
+    
+}
+
+
+.skil:hover {
+    transition: transform 0.3s ease, background-color 0.01s ease;
+    transform: scale(1.1); 
+    background-color: rgb(255, 248, 243);}
+    .skill-description{
+        height: 250px;
+        width: 201px;
+        font-size: 20px;
+        /* padding: 30px; */
+        text-align: center;
+        ;
+    }
